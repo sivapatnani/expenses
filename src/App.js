@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Welcome from './apps/Welcome';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <a
           className="App-link"
@@ -14,7 +15,8 @@ function App() {
         >
           Welcome - Expenses - Siva
         </a>
-      </header>
+      </header> */}
+      <Welcome />
     </div>
   );
 }
